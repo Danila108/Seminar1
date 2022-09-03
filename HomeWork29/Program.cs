@@ -5,32 +5,42 @@
 5, 1, 20 -> [1, 2, 5, 7, 19]
 
 3, 1, 33 -> [6, 1, 33]*/
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введите размер массива: ");
+        String seriesOfNumbers = Console.ReadLine();
+        int series = Convert.ToInt32(seriesOfNumbers);
+        Console.WriteLine(series);
+
+        int[] array = new int[series];
+
+        Console.Write("Введите минимальное значение элемента: ");
+        int min = int.Parse(Console.ReadLine());
+
+        Console.Write("Введите максимальное значение элемента: ");
+        int max = int.Parse(Console.ReadLine());
 
 
-Console.Write("Введите размер массива: ");
-String seriesOfNumbers = Console.ReadLine();
-int series = Convert.ToInt32(seriesOfNumbers);
-Console.WriteLine(series);
+        static Array a (int [] array, int min, int max, int series)
+        {
+            Random rnd = new Random();  //Создание объекта для генерации чисел
 
-int[] array = new int[series];
+            for (int i = 0; i <= series; i++)
+            {
+                //Получить случайное число (в диапазоне от min до max)
+                int value = rnd.Next(min, max);
+                array[i] = value;
+                Console.Write(array[i] + " ");
+            }
+            return array;
+        
+        }
 
-Console.Write("Введите минимальное значение элемента: ");
-int min = int.Parse(Console.ReadLine());
-
-Console.Write("Введите максимальное значение элемента: ");
-int max = int.Parse(Console.ReadLine());
-
-
-   
-Random rnd = new Random();  //Создание объекта для генерации чисел
-
-for (int i = 0; i<= series; i++ ){
-    //Получить случайное число (в диапазоне от min до max)
-    int value = rnd.Next(min, max);
-    array [i] = value;
-    Console.WriteLine(array[i]);
+        //foreach (var item in a(array, min, max, series )) {
+           // Console.WriteLine(item);
+       // }
+        Console.WriteLine(a(array, min, max, series));
+    }
 }
-
-    
-    
-
