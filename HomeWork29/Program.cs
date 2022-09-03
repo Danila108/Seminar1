@@ -12,7 +12,7 @@ class Program
         Console.Write("Введите размер массива: ");
         String seriesOfNumbers = Console.ReadLine();
         int series = Convert.ToInt32(seriesOfNumbers);
-        Console.WriteLine(series);
+        //Console.WriteLine(series);
 
         int[] array = new int[series];
 
@@ -38,9 +38,9 @@ class Program
         
         }
 
-        //foreach (var item in a(array, min, max, series )) {
-           // Console.WriteLine(item);
-       // }
-        Console.WriteLine(a(array, min, max, series));
+            foreach (var item in a(array, min, max, series )) {
+            Console.WriteLine(item);
+            }
+       // Console.WriteLine(a(array, min, max, series));
     }
 }
