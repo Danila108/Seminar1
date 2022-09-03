@@ -9,8 +9,9 @@ Console.Write("Введите целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите степень: ");
 int rank = Convert.ToInt32(Console.ReadLine());
-int answer =1;
+
 int Rank(int num, int rank){
+    int answer =1;
   for (int i = 1; i <= rank; i++){
     answer = answer*num;
   }
