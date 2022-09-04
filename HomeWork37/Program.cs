@@ -7,13 +7,12 @@
 
 Console.Write("Введи количество элементов массива: ");
 int number = Convert.ToInt32(Console.ReadLine()); 
-
-int RandomNumbers(int number, int min, int max)
-  {
-  int[] randomNumbers = new int[number]; //пустой массив
-  int[] massif = new int[number];
-  int sumElements = 0;
-  Console.Write("Получившийся массив: ");
+ Array Numbers(int number, int min, int max)
+    {
+    int[] randomNumbers = new int[number]; //пустой массив
+    int[] massif = new int[number];
+    int sumElements = 0;
+    Console.Write("Получившийся массив: ");
 
     for (int i = 0; i <randomNumbers.Length; i++ ){
       randomNumbers[i] = new Random().Next(min, max); //заполнение массива ранд числами
@@ -29,10 +28,10 @@ int RandomNumbers(int number, int min, int max)
       }
 
     }
-  return sumElements;
+  return massif;
   }
 
-int randomNumbers =  RandomNumbers(number, 1, 10);
+Numbers(number, 1, 10);
 
-Console.WriteLine($"\nСумма элементов, стоящих на нечётных позициях: {randomNumbers}");
+Console.WriteLine($"\nСумма парных элементов: {Numbers}");
 
