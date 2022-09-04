@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\bin\Debug\net6.0\HomeWork37.exe
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\bin\Debug\net6.0\HomeWork37.deps.json
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\bin\Debug\net6.0\HomeWork37.runtimeconfig.json
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\bin\Debug\net6.0\HomeWork37.dll
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\bin\Debug\net6.0\HomeWork37.pdb
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.AssemblyInfo.cs
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.dll
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\refint\HomeWork37.dll
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.pdb
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\HomeWork37.genruntimeconfig.cache
+C:\Users\Hp\Desktop\Seminar1\Seminar1\HomeWork37\obj\Debug\net6.0\ref\HomeWork37.dll
