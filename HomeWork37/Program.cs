@@ -6,27 +6,26 @@
 
 
 Console.Write("Введи количество элементов массива: ");
-int number = Convert.ToInt32(Console.ReadLine()); 
+int number = 4;//Convert.ToInt32(Console.ReadLine()); 
  Array Numbers(int number, int min, int max)
     {
     int[] randomNumbers = new int[number]; //пустой массив
     int[] massif = new int[number];
     int sumElements = 0;
+    int revers = randomNumbers.Length -1;
     Console.Write("Получившийся массив: ");
 
-    for (int i = 0; i <randomNumbers.Length; i++ ){
+    for (int i = 0; i < randomNumbers.Length-1 ; i++ ){
       randomNumbers[i] = new Random().Next(min, max); //заполнение массива ранд числами
 
       Console.Write(randomNumbers[i] + " "); //вывод
     }
-    for (int i = 0; i<=number; i++){
-      if (i <= number)
-      {
-        sumElements = randomNumbers[i] + randomNumbers[number - i];//
+    for (int i = 0; i<=revers; i++){
+        sumElements=0;
+        sumElements = randomNumbers[i] * randomNumbers[revers- i];//
         massif[i] = sumElements;
         Console.WriteLine(massif[i]);
-      }
-
+      
     }
   return massif;
   }

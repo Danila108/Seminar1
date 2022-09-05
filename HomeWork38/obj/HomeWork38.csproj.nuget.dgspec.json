@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomaWork1.3\\HomaWork1.3.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomeWork38\\HomeWork38.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomaWork1.3\\HomaWork1.3.csproj": {
+    "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomeWork38\\HomeWork38.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomaWork1.3\\HomaWork1.3.csproj",
-        "projectName": "HomaWork1.3",
-        "projectPath": "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomaWork1.3\\HomaWork1.3.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomeWork38\\HomeWork38.csproj",
+        "projectName": "HomeWork38",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomeWork38\\HomeWork38.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomaWork1.3\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\Seminar1\\Seminar1\\HomeWork38\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
