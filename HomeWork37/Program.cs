@@ -15,16 +15,16 @@ int number = 4;//Convert.ToInt32(Console.ReadLine());
     int revers = randomNumbers.Length -1;
     Console.Write("Получившийся массив: ");
 
-    for (int i = 0; i < randomNumbers.Length-1 ; i++ ){
+    for (int i = 0; i <= number-1 ; i++ ){
       randomNumbers[i] = new Random().Next(min, max); //заполнение массива ранд числами
 
       Console.Write(randomNumbers[i] + " "); //вывод
     }
-    for (int i = 0; i<=revers; i++){
+    for (int i = 0; i<=(revers/2); i++){
         sumElements=0;
-        sumElements = randomNumbers[i] * randomNumbers[revers- i];//
+        sumElements = randomNumbers[i] * randomNumbers[randomNumbers.Length  -(i+1)];//
         massif[i] = sumElements;
-        Console.WriteLine(massif[i]);
+        Console.Write($"\n Произведение парных элементов: {massif[i]}");
       
     }
   return massif;
@@ -32,5 +32,5 @@ int number = 4;//Convert.ToInt32(Console.ReadLine());
 
 Numbers(number, 1, 10);
 
-Console.WriteLine($"\nСумма парных элементов: {Numbers}");
+//Console.WriteLine($"\n Произведение парных элементов: {Numbers}");
 
