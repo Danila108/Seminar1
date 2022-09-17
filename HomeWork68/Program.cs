@@ -3,9 +3,9 @@
 
 m = 2, n = 3 -> A(m,n) = 29 */
 
-Console.Write("Введи n: ");
-int n = Convert.ToInt16(Console.ReadLine());
 Console.Write("Введи m: ");
+int n = Convert.ToInt16(Console.ReadLine());
+Console.Write("Введи n: ");
 int m = Convert.ToInt16(Console.ReadLine());
 
 int functionAkkerman = Aker(m, n);
